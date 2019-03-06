@@ -22,14 +22,13 @@ It's intended for use within cron daemon, so no output by default to avoid spam 
 Will run the program each day 3th and 17th of the month at 6:15 AM.
 
 
-######Note: I found out that some orbits from March 2015 are missing in Sentinels-1 QC, so I uploaded and can be downloaded from my GitHub repo, https://github.com/krasny2k5/sentinel1_orbit_downloader
-
-
 ## Version history:
 v 1.0 - Initial release
 
 v 2.0 - Included the download of Antenna calibration files (AUX_CAL)
 
 v 2.1 - Minor revision, now download of AUX_CAL data is optional, directory must be set to download. (19/10/2016)
+
+v 3.0 - Fixed the problem with ESA changes in the html format from mid 2018. Some code cleanup and translation (6/3/2019).
 
 Your comments and suggestions are welcome, please let me know if you find out this script useful.
